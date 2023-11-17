@@ -1,0 +1,47 @@
+* {
+    display: block;
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma,Verdana,sans-serif; 
+    font-size: 16px;
+}
+.outer-container {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: papayawhip;
+    color: olive;
+    border: 1rem solid;
+    width: 300px;
+}
+
+#display {
+    background-color: rgb(109, 182, 109);
+    color: beige;
+    height: 5rem;
+    width: 100%;
+}
+
+.num-group {
+    display: flex;
+}
+
+.num {
+    background-color: darkgreen;
+    border: 1px solid;
+    padding: 1rem;
+    width: 100%;
+}
+
+.flex-item-1 {
+    flex: 1 1 0%;
+}
+
+.flex-item-2 {
+    flex: 3 1 0%;
+}
